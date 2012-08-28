@@ -1,8 +1,7 @@
-Category Description Widget
+Ebenum Widget Collection
 ===========================
 
-This is a really simple Wordpress plugin which will add a widget showing the current category description, if any. It will show the current post last category description or the browsed category one.
-
+A collection of useful widgets for Wordpress, most of them could be implemented in less than 10 lines of code directly onto the template, I decided to write them as plugins to have the ability of moving them around and keeping them no matter which theme I choose.
 
 Installation
 ------------
@@ -12,4 +11,16 @@ Simply drop the plugin's folder into your plugins directory and add the widget t
 Internationalization
 --------------------
 
-This plugin is [ready for internationalization](http://codex.wordpress.org/I18n_for_WordPress_Developers) but no translations have been done at the moment.
+This widgets are [ready for internationalization](http://codex.wordpress.org/I18n_for_WordPress_Developers) but no translations have been done at the moment.
+
+Category description widget
+===========================
+
+This widget will show the category description (if any) for the current category (when browsing) or the post's category when viewing a single post.
+
+Category current posts widget
+===========================
+
+This widget will display all the posts under the same category as the selected post, only when it's a single post.
+
+
